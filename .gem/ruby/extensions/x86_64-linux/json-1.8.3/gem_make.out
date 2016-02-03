@@ -1,0 +1,10 @@
+/opt/rh/rh-ruby22/root/usr/bin/ruby -r ./siteconf20160203-23-4lo4lr.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+rm -f .so  *.o  *.bak mkmf.log .*.time
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
